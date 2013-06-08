@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bz.tsung.android.googlehub"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16" />
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+        <receiver android:name=".TextHubReceiver">
+            <intent-filter>
+                <action android:name="bz.tsung.android.texthub.ACTION_HUB"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="bz.tsung.permission.TEXTHUB"/>
+</manifest>

@@ -1,0 +1,4 @@
+GoogleHub/build/*
+.gradle
+gradle/*
+gradlew*
