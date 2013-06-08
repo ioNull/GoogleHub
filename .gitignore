@@ -1,4 +1,5 @@
 GoogleHub/build/*
+.idea
 .gradle
 gradle/*
 gradlew*
