@@ -1,4 +1,5 @@
 GoogleHub/build/*
+*.apk
 .idea
 .gradle
 gradle/*
